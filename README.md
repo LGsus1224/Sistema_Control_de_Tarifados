@@ -11,6 +11,10 @@ git clone https://github.com/LGsus1224/Sistema_Control_de_Tarifados.git
 ```
 python3 -m venv [nombr_ entorno_virtual]
 ```
+o
+```
+python -m venv [nombr_ entorno_virtual]
+```
 3. Con el entorno virtual activado instalar los requerimientos del archivo  **requirements.txt**
 ```
 pip install -r requirements.txt
