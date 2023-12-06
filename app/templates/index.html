@@ -1,0 +1,31 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi sitio web</title>
+</head>
+
+<body> -->
+
+{% extends 'base.html' %}
+{% block tittle %} Página de inicio {% endblock %}
+
+{% block contend %}
+<h1>Bienvenido</h1>
+{% if name %}
+<p>Hola, {{name}}</p>
+{% else %}
+<p>Hola, desconocido</p>
+{% endif %}
+
+<h2>Lista de amigos</h2>
+<ul>
+    {% for friend in friends %}
+    <li>{{ friend }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+<!-- </body>
+
+</html> -->
